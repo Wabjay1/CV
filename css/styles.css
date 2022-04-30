@@ -1,17 +1,128 @@
 body{
-    background-color: ;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
 }
-
+.top-container{
+    /* background-image: url(../images/water.jpg); */
+    background-color: #EAF6F6;
+    padding-top: 100px;
+    position: relative;
+}
 h1{
-    color: aqua;
+    color: #66BFBF;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+}
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 h3{
-    color: aqua;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
 }
-hr{
-    border-style: dashed;
-    border-color: grey;
-    width: 10%;
-    border-width: 1px;
+.programmer{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+.pro{
+    text-decoration: underline;
+}
+.top-img{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.bottom-img{
+    width: 200px;
+    position: absolute;
+    bottom: 300px;
+    left: 100px;
+}
+.middle-container{
+    padding: 100px;
+}
+.paragraph{
+    width: 40%;
+    margin: 0 auto;
+}
+.middle-container hr{
+    width: 5%;
+    display: inline-block;
+    border: 2px dashed #EAF6F6;
+    margin: 100px auto;
+    border-bottom: none;
+}
+.profile img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.skill-row{
+    /* display: inline-block; */
+    width: 50%;
+    text-align: left;
+    margin: 100px auto;
     
+}
+.skill-row img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.img-1{
+    float: left;
+    margin-right: 30px;
+}
+.img-2{
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row p{
+    line-height: 1.5;
+    color: #40514E;
+    font-weight: bold;
+}
+.BUTTON_TGW {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: 30px;
+    padding: 1rem;
+    background-color: #66BFBF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_TGW:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+}
+.bottom-container{
+   background-color: #66BFBF;
+   padding: 50px;
+}
+.bottom-container a{
+    color: #11999E;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+.bottom-container a:hover{
+    color: #EAF6F6;
+}
+.bottom-container p{
+    color: #EAF6F6;
+    margin-top: 2rem;
+    font-size: 0.75rem;
 }
